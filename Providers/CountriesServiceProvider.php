@@ -49,7 +49,7 @@ class CountriesServiceProvider extends ServiceProvider
     protected function registerAssets()
     {
         $this->publishes([
-            module_path($this->moduleName, 'dist/build-countries') => public_path(),
+            module_path($this->moduleName, 'dist/build-countries') => public_path('build-countries'),
         ], 'modules-assets');
     }
 
