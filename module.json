@@ -3,7 +3,7 @@
     "alias": "countries",
     "description": "",
     "keywords": [],
-    "priority": 4,
+    "priority": 6,
     "providers": [
         "HexGad\\Countries\\Providers\\CountriesServiceProvider"
     ],
